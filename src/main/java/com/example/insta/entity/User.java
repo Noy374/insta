@@ -1,10 +1,12 @@
 package com.example.insta.entity;
+
 import com.example.insta.enums.ERole;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.*;
 

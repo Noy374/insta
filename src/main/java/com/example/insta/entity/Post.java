@@ -2,7 +2,7 @@ package com.example.insta.entity;
 
 import lombok.Data;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashSet;
